@@ -74,9 +74,9 @@ rule GoRed{
 	$s12 = "GET" ascii nocase
 	$s13 = "POST" ascii nocase
 	$s14 = "a5674391" ascii nocase
-	$s15 = {0F B6 54 0C ? ? 0F B6 74 0C ? ? 29 D6 40 88 74 0C ? ? 48 FF ? ? 48 83 F9 ? ? 7C ? ? }
-	$s16 = {0F B6 54 04 ? ? 0F B6 74 04 ? ? 31 D6 40 88 74 04 ? ? 48 FF ? ? 66 0F 1F 44 00 ? ? 48 83 F8 ? ? 7C ? ? }
-	$s17 = {0F B6 54 0C ? ? 0F B6 74 0C ? ? 01 F2 88 54 0C ? ? 48 FF ? ? 48 83 F9 ? ? 7C ? ? }
+	$s15 = {0F B6 54 0C ?? 0F B6 74 0C ?? 29 D6 40 88 74 0C ?? 48 FF ?? 48 83 F9 ?? 7C ?? }
+	$s16 = {0F B6 54 04 ?? 0F B6 74 04 ?? 31 D6 40 88 74 04 ?? 48 FF ?? 66 0F 1F 44 00 ?? 48 83 F8 ?? 7C ?? }
+	$s17 = {0F B6 54 0C ?? 0F B6 74 0C ?? 01 F2 88 54 0C ?? 48 FF ?? 48 83 F9 ?? 7C ?? }
 	
 	$c1 = "embedded.GetConfig" ascii nocase
 	$c2 = "common.runInBackground" ascii nocase
