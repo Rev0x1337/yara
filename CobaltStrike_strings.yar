@@ -1,4 +1,4 @@
-rule TEST_CobaltStrike_strings
+rule CobaltStrike_strings
 {
     strings:
         $enc_beacon_x86_1 = { fc e8 ?? 00 00 00 }
