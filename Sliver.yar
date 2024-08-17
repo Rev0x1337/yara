@@ -1,4 +1,4 @@
-rule TEST_Sliver
+rule Sliver
 {
     strings:
         $s_tcppivot32 = { 81 ?? 74 63 70 70 [2-20] 81 ?? 04 69 76 6F 74  }
