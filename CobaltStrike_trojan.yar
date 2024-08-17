@@ -1,4 +1,4 @@
-rule TEST_CobaltStrike_trojan
+rule CobaltStrike_trojan
 {
     strings:
         $bypass1 = "bypassuac.dll" ascii fullword
