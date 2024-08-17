@@ -1,4 +1,4 @@
-rule TEST_BitRAT 
+rule BitRAT 
 {
     strings:
         $tinynuke_paste1 = "TaskbarGlomLevel"
