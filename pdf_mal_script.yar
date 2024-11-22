@@ -1,4 +1,4 @@
-rule pdf_script {
+rule pdf_mal_script {
 	strings:
 		$magic = { 25 50 44 46 }
 		$action0 = "<</S/Launch/Type/Action/Win<<" nocase ascii
