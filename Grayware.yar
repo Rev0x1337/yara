@@ -1,4 +1,4 @@
-rule greyware_tools
+rule Greyware
 {
     strings:
         
